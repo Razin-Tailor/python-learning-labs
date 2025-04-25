@@ -10,8 +10,16 @@ This includes:
 - `concurrent.futures`
 
 ## Structure
-Each folder inside `concurrency/` is a self-contained day-wise lab.
+Each folder inside `concurrency/` will be a self-contained day-wise lab/practice.
+
+## Getting Started
+```bash
+virtualenv venv
+. venv/bin/activate
+pip install -r requirements.txt
+```
 
 ## How to Run
 ```bash
 python concurrency/day01_threads/main.py
+```
